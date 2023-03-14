@@ -1,11 +1,16 @@
-import reactLogo from './assets/react.svg'
-
+import { Button } from "./components/Button";
 
 export function App() {
   
 
   return (
-    <h1></h1>
+    <>
+      <Button variant="primary"/>
+      <Button variant="secondary" />
+      <Button variant="success" />
+      <Button variant="danger" />
+      <Button />
+    </>
   )
 
 
